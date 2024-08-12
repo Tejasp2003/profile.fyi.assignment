@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Earbuds",
+    "price": 79.99,
+    "image": "https://cdn.vox-cdn.com/thumbor/xpiT8Qogl3kzMTsKbd5WEHe9_QI=/0x0:2040x2040/768x768/filters:focal(1020x1020:1021x1021)/cdn.vox-cdn.com/uploads/chorus_asset/file/23400347/lb.jpeg",
+    "description": "High-quality wireless earbuds with noise cancellation.",
+    "quantity": 10
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "price": 199.99,
+    "image": "https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw7fb50eab/images/Fastrack/Catalog/38074AP02_1.jpg?sw=800&sh=800",
+    "description": "Feature-packed smartwatch with heart rate monitoring and GPS.",
+    "quantity": 5
+  },
+  {
+    "id": 3,
+    "name": "Portable Charger",
+    "price": 49.99,
+    "image": "https://content.api.news/v3/images/bin/46285a92d005cdc6cc47444b3220b587",
+    "description": "High-capacity portable charger for all your devices.",
+    "quantity": 7
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "price": 89.99,
+    "image": "https://easycart.in/wp-content/uploads/2023/05/51-3.jpg",
+    "description": "Waterproof Bluetooth speaker with amazing sound quality.",
+    "quantity": 3
+  },
+  {
+    "id": 5,
+    "name": "Laptop Backpack",
+    "price": 59.99,
+    "image": "https://www.cnet.com/a/img/resize/1d34dbb3208728418212778201c3b4add3bda110/hub/2021/10/20/c8de312d-eaa1-4aa8-9012-a7fed7e4d57f/nomatic-travel-backpack-01.jpg?auto=webp&fit=crop&height=1200&width=1200",
+    "description": "Durable and spacious laptop backpack with multiple compartments.",
+    "quantity": 8
+  },
+  {
+    "id": 6,
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "image": "https://cdn.thewirecutter.com/wp-content/media/2023/09/wirelessmouse-2048px-7423.jpg",
+    "description": "Ergonomic wireless mouse with long battery life.",
+
+    "quantity": 6
+  },
+  {
+    "id": 7,
+    "name": "Mechanical Keyboard",
+    "price": 149.99,
+    "image": "https://media.wired.com/photos/65b0438c22aa647640de5c75/master/pass/Mechanical-Keyboard-Guide-Gear-GettyImages-1313504623.jpg",
+    "description": "Customizable mechanical keyboard with RGB lighting.",
+    "quantity": 4
+  },
+  {
+    "id": 8,
+    "name": "External Hard Drive",
+    "price": 129.99,
+    "image": "https://cdn.thewirecutter.com/wp-content/media/2023/05/externalhardrives-2048px-09437.jpg",
+    "description": "High-speed external hard drive for storing all your files.",
+    "quantity": 2
+  },
+  {
+    "id": 9,
+    "name": "Gaming Mouse",
+    "price": 69.99,
+    "image": "https://arcticfox.com/cdn/shop/files/1_f87f08be-bf1b-4065-ae81-21d7c1ad0f69.jpg?v=1699270558",
+    "description": "High-precision gaming mouse with customizable buttons.",
+    "quantity": 9
+  },
+  {
+    "id": 10,
+    "name": "Gaming Headset",
+    "price": 99.99,
+    "image": "https://cdn.mos.cms.futurecdn.net/JcTkkafu6X9GPCiZ28k7RV.jpg",
+    "description": "Immersive gaming headset with noise-cancelling microphone.",
+    "quantity": 1
+  }
+]
