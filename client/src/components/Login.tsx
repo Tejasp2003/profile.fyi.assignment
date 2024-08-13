@@ -8,8 +8,10 @@ const Login: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
-  const [showPassword, setShowPassword] = useState<boolean>(false); // Default to hidden
+  const [showPassword, setShowPassword] = useState<boolean>(false); 
+  const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
+
   const { login } = useAuth();
 
   const togglePasswordVisibility = () => {
@@ -17,18 +19,23 @@ const Login: React.FC = () => {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
+
     e.preventDefault();
+    setIsLoading(true);
     setError(null);
     try {
       await login(email, password);
       toast.success("Login successful 🎉");
+      setIsLoading(false);
       navigate("/");
     } catch (error) {
+      setIsLoading(false);
       toast.error(
         "Login failed. Please check your credentials and try again 😢"
       );
       console.error("Login failed:", error);
       setError("Login failed. Please check your credentials and try again.");
+
     }
   };
 
@@ -80,6 +87,7 @@ const Login: React.FC = () => {
               <button
                 type="button"
                 onClick={togglePasswordVisibility}
+                disabled={isLoading}
                 className="absolute inset-y-0 right-0 flex items-center pr-3"
               >
                 {showPassword ? (

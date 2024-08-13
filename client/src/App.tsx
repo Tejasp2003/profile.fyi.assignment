@@ -9,6 +9,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './context/AuthContext';
+import Checkout from './components/Checkout';
 
 
 
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <Route path="/register" element={<Register />} />
           <Route path="/" element={<ProductList />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </div>
     </Router>

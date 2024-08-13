@@ -54,7 +54,7 @@ const Cart: React.FC = () => {
     } else if (discountCode === "PERCENT10") {
       setAppliedDiscount({ type: "percentage", value: 10 });
     } else {
-      alert("Invalid discount code");
+      toast.error("Invalid discount code ⚠️");
     }
     setDiscountCode("");
   };
@@ -152,7 +152,9 @@ const Cart: React.FC = () => {
                 Apply
               </button>
             </div>
-            <button className="mt-4 bg-green-300 text-black font-bold px-4 py-2 rounded hover:bg-green-500 transition-colors">
+            <button 
+            onClick={() => navigate("/checkout")}
+            className="mt-4 bg-green-300 text-black font-bold px-4 py-2 rounded hover:bg-green-500 transition-colors">
               Proceed to Checkout
             </button>
           </div>

@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import toast from "react-hot-toast";
 
 interface CartItem {
   id: number;
@@ -49,6 +50,7 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   const removeFromCart = (id: number) => {
     setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));
+    toast.success("Item removed from cart 🗑️");
   };
 
   const updateQuantity = (id: number, quantity: number) => {
